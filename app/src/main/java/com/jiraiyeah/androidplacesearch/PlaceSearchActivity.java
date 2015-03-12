@@ -25,7 +25,9 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 public class PlaceSearchActivity extends ActionBarActivity implements LoaderManager.LoaderCallbacks<Cursor> {
 
-  GoogleMap mGoogleMap;
+  private GoogleMap mGoogleMap;
+  private EditText mSearchPlate;
+
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
@@ -78,9 +80,9 @@ public class PlaceSearchActivity extends ActionBarActivity implements LoaderMana
     searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
 
     // Hack to get rid of the search hint icon
-    EditText searchPlate =
+    mSearchPlate =
         (EditText) searchView.findViewById(android.support.v7.appcompat.R.id.search_src_text);
-    searchPlate.setHint("");
+    mSearchPlate.setHint("");
 
     return super.onCreateOptionsMenu(menu);
   }
@@ -116,6 +118,9 @@ public class PlaceSearchActivity extends ActionBarActivity implements LoaderMana
       markerOptions.position(position);
       markerOptions.title(c.getString(0));
       mGoogleMap.addMarker(markerOptions);
+      if (mSearchPlate != null) {
+        mSearchPlate.setText(c.getString(0));
+      }
     }
     if(position!=null){
       mGoogleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(position, 15));
