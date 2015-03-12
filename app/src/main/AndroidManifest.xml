@@ -47,13 +47,9 @@
                        android:value=".ui.PlaceSearchActivity" />
         </activity>
 
-        <!--<meta-data-->
-            <!--android:name="com.google.android.maps.v2.API_KEY"-->
-            <!--android:value="YOUR_ANDROID_KEY" />-->
-
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyC06v0jRXzNewPYCZKkJX4ZCRoBSJheEVM" />
+            android:value="YOUR_ANDROID_KEY" />
 
         <provider
             android:name=".PlaceSearchProvider"

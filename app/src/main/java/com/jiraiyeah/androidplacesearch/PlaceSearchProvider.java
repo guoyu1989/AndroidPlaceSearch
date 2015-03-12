@@ -29,9 +29,7 @@ import com.jiraiyeah.androidplacesearch.utils.PlaceJSONParser;
 public class PlaceSearchProvider extends ContentProvider {
 
   public static final String AUTHORITY = "com.jiraiyeah.androidplacesearch.PlaceSearchProvider";
-//  public static final String SERVER_KEY = "YOU_PROJECT_SERVER_KEY";
-  public static final String SERVER_KEY = "AIzaSyDTY1ttOWSE_V9JW35WESLOZ6FABHjd910";
-
+  public static final String SERVER_KEY = "YOU_PROJECT_SERVER_KEY";
 
   public static final Uri SEARCH_URI = Uri.parse("content://"+AUTHORITY+"/search");
   public static final Uri DETAILS_URI = Uri.parse("content://"+AUTHORITY+"/details");
