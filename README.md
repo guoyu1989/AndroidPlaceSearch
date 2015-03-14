@@ -5,7 +5,7 @@ A simple application implements the android place search functionality for actio
 Android ActionBar Activity + Search View + Place Autocomplete + Map Fragment For Showing the Search Result.
 
 ## Sreenshot
-(https://cloud.githubusercontent.com/assets/1730780/6650627/dec644e0-c9da-11e4-8115-cff6010ebac4.png)
+<img src="https://cloud.githubusercontent.com/assets/1730780/6650627/dec644e0-c9da-11e4-8115-cff6010ebac4.png">
 
 
 ## references
