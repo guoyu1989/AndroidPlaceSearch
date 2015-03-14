@@ -6,6 +6,8 @@ Android ActionBar Activity + Search View + Place Autocomplete + Map Fragment For
 
 ## Sreenshot
 <img src="https://cloud.githubusercontent.com/assets/1730780/6650627/dec644e0-c9da-11e4-8115-cff6010ebac4.png" width="33%" height="50%">
+<img src="https://cloud.githubusercontent.com/assets/1730780/6650626/dec4fe46-c9da-11e4-9eed-e78a5da8bf3f.png" width="33%" height="50%">
+<img src="https://cloud.githubusercontent.com/assets/1730780/6650628/dec6fca0-c9da-11e4-851b-25b22ba9dedc.png" width="33%" height="50%">
 
 
 ## references
